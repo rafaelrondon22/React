@@ -1,17 +1,18 @@
 import React from "react";
 import styled from "styled-components";
-function boton() {
+function boton(props) {
     return(
-        <div onClick={props.handleClick} 
-        className={`icon nav-icon-5 ${props.clicked ? 'open' : ''}`}>
-            <div className="nav-icon3">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+        <botones>
+            <div onClick={props.handleClick} 
+            className={`icon nav-icon-5 ${props.clicked ? 'open' : ''}`}>
+                <div className="nav-icon3">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-        </div>
-
+         </botones>
     )
 }
 
