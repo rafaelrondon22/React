@@ -1,12 +1,10 @@
 import './App.css';
-import NavBar from '/Rafael Rondon/Coder/ReactJS/Entregas/ecommerce/src/components/NavBar';
-
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <>  
-    
-        </>
+            </>
   );
 }
 
