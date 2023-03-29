@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-function button() {
+function boton() {
     return(
-        <div>
+        <div onClick={props.handleClick} 
+        className={`icon nav-icon-5 ${props.clicked ? 'open' : ''}`}>
             <div className="nav-icon3">
                 <span></span>
                 <span></span>
@@ -14,9 +15,9 @@ function button() {
     )
 }
 
-export default button
+export default boton
 
-const = buttonB = styled.div
+const botones = styled.div`
 /* Icon 3 */
 
 #nav-icon3 span:nth-child(1) {
@@ -56,4 +57,4 @@ const = buttonB = styled.div
     width: 0%;
     left: 50%;
   }
-  
+  `

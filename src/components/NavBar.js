@@ -1,6 +1,6 @@
-import React { useState } from 'react'
+import React from 'react';
 import styled from 'styled-components'
-import button from './button';
+import boton from './Button';
 
 function NavBar() {
     return (
@@ -11,7 +11,7 @@ function NavBar() {
             <a href='/'>PRODUCTO</a>
             <a href='/'>CONTACTOS</a>
             </div>
-            <button/>
+            <boton/>
         </NavContainers>
     );
   }
